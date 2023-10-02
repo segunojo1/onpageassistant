@@ -18,9 +18,9 @@ function App() {
       <div className='position' style={{position: "relative", height: "100vh"}}>
         <h1>Segun's On page Assistant</h1>
         <div className='btns'>
-          <button className='btn' onClick={() => handleButtonClick(50, 400, "THIS IS BUTTON ONE")}>Button 1</button>
-          <button className='btn' onClick={() => handleButtonClick(300, 400, "THIS IS BUTTON TWO")}>Button 2</button>
-          <button className='btn' onClick={() => handleButtonClick(600, 400, "THIS IS BUTTON THREE")}>Button 3</button>
+          <button className='btn' onClick={() => handleButtonClick(50, 300, "THIS IS BUTTON ONE")}>Button 1</button>
+          <button className='btn' onClick={() => handleButtonClick(300, 300, "THIS IS BUTTON TWO")}>Button 2</button>
+          <button className='btn' onClick={() => handleButtonClick(600, 300, "THIS IS BUTTON THREE")}>Button 3</button>
         </div>
         {/* <div className='btns' style={{marginTop: "200px"}}>
           <button className='btn' onClick={() => handleButtonClick(50, 150, "THIS IS BUTTON FOUR")}>Button 4</button>
