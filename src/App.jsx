@@ -22,6 +22,11 @@ function App() {
           <button className='btn' onClick={() => handleButtonClick(300, 400, "THIS IS BUTTON TWO")}>Button 2</button>
           <button className='btn' onClick={() => handleButtonClick(600, 400, "THIS IS BUTTON THREE")}>Button 3</button>
         </div>
+        {/* <div className='btns' style={{marginTop: "200px"}}>
+          <button className='btn' onClick={() => handleButtonClick(50, 150, "THIS IS BUTTON FOUR")}>Button 4</button>
+          <button className='btn' onClick={() => handleButtonClick(300, 150, "THIS IS BUTTON FIVE")}>Button 5</button>
+          <button className='btn' onClick={() => handleButtonClick(600, 150, "THIS IS BUTTON SIX")}>Button 6</button>
+        </div> */}
         <div className='assistant' style={{position: "absolute", display: "flex", left: `${position.x}px`, bottom: `${position.y}px`}}>
         <img src="https://gifdb.com/images/high/animated-winter-days-walking-xizdn42xi95y262e.gif" alt="" width="200px" style={{}}/>
         <div>
